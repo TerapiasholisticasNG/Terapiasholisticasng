@@ -1,0 +1,26 @@
+
+
+header{
+    #navbar{
+        $displey-flex: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        background: rgb(13,139,214);
+        background: linear-gradient(90deg, rgba(13,139,214,1) 14%, rgba(200,159,228,1) 100%, rgba(0,212,255,1) 100%);;
+       
+     ul{
+        li{
+            list-style: none;
+            justify-content: center;
+            a{
+               font-family: 'Borel', cursive !important;
+               color: black;
+               font-size: 30px;
+               text-decoration: none;
+               padding: 20px; 
+
+           }
+       }
+   }
+ }
+}

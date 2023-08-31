@@ -1,0 +1,167 @@
+#tituloindex {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#nombre {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-right: 350px;
+  margin-top: 20px;
+}
+
+#presentacion {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 130px;
+  font-family: cursive;
+}
+
+header #navbar {
+  flex-wrap: wrap;
+  padding: 20px;
+  background: rgb(13, 139, 214);
+  background: linear-gradient(90deg, rgb(13, 139, 214) 14%, rgb(200, 159, 228) 100%, rgb(0, 212, 255) 100%);
+}
+header #navbar ul li {
+  list-style: none;
+  justify-content: center;
+}
+header #navbar ul li a {
+  font-family: "Borel", cursive !important;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+body {
+  background: rgb(141, 0, 255);
+  background: linear-gradient(274deg, rgb(141, 0, 255) 0%, rgb(120, 40, 231) 0%, rgb(162, 153, 204) 99%);
+}
+
+@media (max-width: 600px) {
+  body {
+    background: rgb(141, 0, 255);
+    background: linear-gradient(274deg, rgb(141, 0, 255) 0%, rgb(120, 40, 231) 0%, rgb(162, 153, 204) 99%);
+  }
+}
+@media (max-width: 600px) {
+  #header #navbar {
+    width: 300px;
+  }
+}
+@media (max-width: 620px) {
+  #tituloindex {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media (max-width: 620px) {
+  #nombre {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    margin-right: 170px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 620px) {
+  #presentacion {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+  }
+}
+@media (max-width: 620px) {
+  #akash {
+    list-style-type: none;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  #akash img {
+    width: 280px;
+  }
+}
+@media (max-width: 620px) {
+  #spotify {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 620px) {
+  .grid-item {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+    text-align: center;
+    background: rgb(13, 139, 214);
+    background: linear-gradient(90deg, rgb(13, 139, 214) 14%, rgb(200, 159, 228) 100%, rgb(0, 212, 255) 100%);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 40PX;
+    width: 100px;
+    margin-bottom: 50px;
+  }
+  #ig {
+    text-decoration: none;
+    color: rgb(0, 251, 255);
+  }
+}
+#nombre {
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+@media (max-width: 620px) {
+  #spotify {
+    width: 300px;
+  }
+}
+#navhover:hover {
+  border-radius: 300px;
+  transform: rotate(20deg);
+}
+
+#navhover {
+  cursor: pointer;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.accordion-button.collapsed {
+  background: rgb(13, 139, 214);
+  background: linear-gradient(90deg, rgb(13, 139, 214) 14%, rgb(200, 159, 228) 100%, rgb(0, 212, 255) 100%);
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+  background: rgb(40, 231, 145);
+  background: linear-gradient(274deg, rgb(40, 231, 145) 0%, rgb(204, 153, 199) 70%, rgb(170, 100, 91) 100%);
+}
+
+.accordion {
+  margin-top: 100px;
+}
+
+#akash ul {
+  list-style-type: none;
+}
+#akash ul li {
+  margin-top: 30px;
+  margin-right: 0px;
+}
+#akash ul li img {
+  width: 280px;
+}
+
+/*# sourceMappingURL=style.css.map */
